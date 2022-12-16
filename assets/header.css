@@ -1,0 +1,18 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.allPage{
+    background-color:#F9F9F9;
+    border:none
+}
+h2 {
+    margin-left: 15px;
+    display: block-inline;
+    width: 40vw;
+    margin-top: 15px;
+    margin-right:50px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    padding: 12px;
+}
