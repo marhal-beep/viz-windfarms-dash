@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 from dash import dash_table, html
 from plotly.subplots import make_subplots
 
+
 import turf
 
 pd.options.mode.chained_assignment = None  # default='warn'

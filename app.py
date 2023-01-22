@@ -660,7 +660,7 @@ def update_tab2( value_xaxis,  filtered_wt_data_json, filtered_wf_data_json,):
     filtered_wt_data = data_windturbines[data_windturbines.id.isin(filtered_wt_data_idx)]
     filtered_wf_data = data_windfarms[data_windfarms.WFid.isin(filtered_wf_data_idx)]
 
-    histogram_plots  = plot_wf_histograms(filtered_wt_data, filtered_wf_data, x_axis = value_xaxis )
+    histogram_plots  = plot_wf_histograms(filtered_wt_data, filtered_wf_data, y_axis = value_xaxis )
 
     return histogram_plots[0], histogram_plots[1], histogram_plots[2]#, poster_figure
 

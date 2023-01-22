@@ -1,7 +1,6 @@
-// function that creates markers on leaflet map 
 window.dashExtensions = Object.assign({}, window.dashExtensions, {
     default: {
-        function0: function (feature, latlng, context) {
+        function0: function(feature, latlng, context) {
             mmarker = L.circleMarker(latlng, {
                 radius: 5,
                 fillOpacity: 0.5
